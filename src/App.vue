@@ -188,15 +188,15 @@
             function open(){
                 return enabled.value = !enabled.value
             }
-
+            onMounted(() => {
+                initFlowbite();
+            })
             return{
                 name,
                 enabled,
             }
 
-            onMounted(() => {
-                initFlowbite();
-            })
+
 
         },
 
