@@ -6,7 +6,7 @@
                 <span class="self-center color-blue-400 text-2xl font-semibold whitespace-nowrap dark:text-white">Nyumbani Holmes</span>
             </a>
             <div class="flex md:order-2">
-                <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button>
+                <!-- <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button> -->
                 <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
                     <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
@@ -46,8 +46,46 @@
             </div>
         </div>
     </section>
+    <h2 class="text-3xl text-center p-4 font-bold">Our Highest Rated BnBs </h2>
+    <section>
+    <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
+        <div class="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-3">
+            <div class="p-6">
+                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" alt="blog">
+                <div class="inline-flex justify-between w-full">
+                    <h1 class="mb-8 text-xl font-semibold leading-none tracking-tighter text-neutral-600">Mombasa Mansion</h1>
+                    <span>$25000.00</span>
+                </div>
+                <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Lorem ipsum dolor sit amet  fugiat perferendis aliquid modi suscipit sed! Iste voluptatum fugiat expedita adipisci. Est, fuga nesciunt.</p>
+                 <star-rating star-size=30 :animate=true :rounded-corners=true :increment="0.5"/>
+                <button type="button" class="mt-4 focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">View More</button>
+            </div>
+            <div class="p-6">
+                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="https://images.unsplash.com/photo-1558036117-15d82a90b9b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="blog">
+                <div class="inline-flex justify-between w-full">
+                    <h1 class="mb-8 text-xl font-semibold leading-none tracking-tighter text-neutral-600">Kitengela Mansion.</h1>
+                    <span>ksh40000.00</span>
+                </div>
+                <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.  I labore facere sapiente officiis.
+                ndus optio nostrum  vero a doloribus sint! Reiciendis, ducimus rerum!</p>
+                 <star-rating star-size=30 :animate=true :rounded-corners=true />
+                <button type="button" class="mt-4 focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">View More</button>
+            </div>
+            <div class="p-6">
+                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="https://images.unsplash.com/photo-1628744876497-eb30460be9f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="blog">
+                <div class="inline-flex justify-between w-full">
+                    <h1 class="mb-8 text-xl font-semibold leading-none tracking-tighter text-neutral-600">Malindi Resort</h1>
+                    <span>ksh50000.00</span>
+                </div>
+                <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Free and Premium themes, UI Kit's, templates and landing pages built with Tailwind CSS, HTML &amp; Next.js.</p>
+                <star-rating star-size=30 :animate=true :rounded-corners=true />
+                <button type="button" class="mt-4 focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">View More</button>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <h1 class="text-4xl text-center font-bold p-4">Our Houses</h1>
+    <h1 class="text-4xl text-center font-bold p-4">Our Other Houses</h1>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
 
         <div>
@@ -75,7 +113,7 @@
     <footer class="bg-white dark:bg-gray-900">
         <div class="mx-auto w-full max-w-screen-xl">
             <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
-                <div>
+                <!-- <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
@@ -91,7 +129,7 @@
                             <a href="#" class="hover:underline">Blog</a>
                         </li>
                     </ul>
-                </div>
+                </div> -->
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
@@ -124,7 +162,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
+                    <!-- <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
                             <a href="#" class="hover:underline">iOS</a>
@@ -138,7 +176,7 @@
                         <li class="mb-4">
                             <a href="#" class="hover:underline">MacOS</a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
             <div class="px-4 bg-dark py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
@@ -169,17 +207,21 @@
             </div>
         </div>
     </footer>
-
-
+    
 </template>
 
 <script lang="ts">
 
     import {reactive , ref} from 'vue'
+    import StarRating from 'vue-star-rating';
     import { onMounted } from 'vue'
     import { initFlowbite , initDropdowns } from 'flowbite'
 
     export default {
+
+        components:{
+            StarRating
+        },
 
         setup(){
             let name = ref("kaboi")
@@ -207,5 +249,7 @@
 
 
 <style scoped>
-
+.star-rating{
+    width: 50px;
+}
 </style>
