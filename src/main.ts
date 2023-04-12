@@ -1,7 +1,9 @@
 import { createApp } from 'vue'
 import './style.css'
 import 'flowbite/plugin'
-// @ts-ignore
+import router from './routes/index'
 import App from './App.vue';
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.use(router)
+app.mount('#app')
