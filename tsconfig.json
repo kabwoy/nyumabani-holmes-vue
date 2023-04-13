@@ -14,5 +14,6 @@
     "noEmit": true
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  // "files": ["ts-shims.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
