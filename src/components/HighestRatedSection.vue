@@ -10,7 +10,7 @@
                     <span>$25000.00</span>
                 </div>
                 <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Lorem ipsum dolor sit amet  fugiat perferendis aliquid modi suscipit sed! Iste voluptatum fugiat expedita adipisci. Est, fuga nesciunt.</p>
-                 <star-rating star-size=30 :animate=true :rounded-corners=true :increment="0.5"/>
+<!--                 <star-rating star-size=30 :animate=true :rounded-corners=true :increment="0.5"/>-->
                 <button type="button" class="mt-4 focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">View More</button>
             </div>
             <div class="p-6">
@@ -21,7 +21,7 @@
                 </div>
                 <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.  I labore facere sapiente officiis.
                 ndus optio nostrum  vero a doloribus sint! Reiciendis, ducimus rerum!</p>
-                 <star-rating star-size=30 :animate=true :rounded-corners=true />
+<!--                 <star-rating star-size=30 :animate=true :rounded-corners=true />-->
                 <button type="button" class="mt-4 focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">View More</button>
             </div>
             <div class="p-6">
@@ -31,7 +31,7 @@
                     <span>ksh50000.00</span>
                 </div>
                 <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Free and Premium themes, UI Kit's, templates and landing pages built with Tailwind CSS, HTML &amp; Next.js.</p>
-                <star-rating star-size=30 :animate=true :rounded-corners=true />
+<!--                <star-rating star-size=30 :animate=true :rounded-corners=true />-->
                 <button type="button" class="mt-4 focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">View More</button>
             </div>
         </div>
